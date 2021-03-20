@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main (void)
+{
+  int a,b;
+  printf("Enter the terms you want to add: ");
+  scanf("%d %d", &a, &b);
+  printf("Your answer is: %d", a + b);
+}
