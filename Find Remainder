@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+  int a, b, t,;
+  printf("Total number of test cases: ");
+  scanf("%d", &t);
+  for(int i = 0; i < t; i++)
+  {
+    printf("Enter the number you want to divide: ");
+    scanf("%d %d", &a, &b);
+    printf("Your answer is: %d\n", a % b);
+  }
+}
